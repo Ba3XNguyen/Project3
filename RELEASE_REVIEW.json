@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-17",
+  "source_only_staging": true,
+  "large_benchmark_rerun": false,
+  "smoke_test": "PASS: fictional fixture only; one epoch; Windows",
+  "private_raw_or_learner_outputs_in_candidates": false,
+  "secret_pattern_scan": "PASS",
+  "ignore_probes_passed": 8,
+  "nested_vendor_git_repositories": 0,
+  "upstream_licenses": "MIT notices retained for both runtime subsets",
+  "team_code_license": "Not newly assigned; owner decision required for public reuse",
+  "ubuntu_clean_install": "NOT TESTED",
+  "remote_created": false,
+  "commit_created": false,
+  "push_performed": false,
+  "candidate_inventory_command": "python scripts/release_check.py",
+  "limitations": "Pattern scan is not a proof of absence of every possible secret. Private artifacts must be restored separately.",
+  "integration_validation_modes": [
+    "integration",
+    "benchmark opt-in"
+  ],
+  "integration_source_selection": [
+    "skill",
+    "non-skill",
+    "assistments",
+    "full",
+    "daotao",
+    "all"
+  ],
+  "integration_smoke": "PASS: seven test methods, six source selections, negative cases; fictional fixtures only"
+}

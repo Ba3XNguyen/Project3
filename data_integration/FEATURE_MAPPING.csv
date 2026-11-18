@@ -1,0 +1,76 @@
+source_variant,canonical_field,status,raw_evidence,transformation_or_requirement,availability
+assist2009_skill_builder,source,derived,input file identity,Fixed provenance source namespace,static
+assist2009_skill_builder,learner_id,derived,user_id,HMAC with source domain and private persistent key,event time / snapshot
+assist2009_skill_builder,course_id,unavailable,,Leave empty; never impute,unknown
+assist2009_skill_builder,assessment_id,mapping_required,assignment_id,Keep observed_assignment_id separately; verify assessment semantics,unknown
+assist2009_skill_builder,question_id,observed,problem_id,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_skill_builder,skill_id,observed,skill_id,Keep numeric single skill with variant namespace; preserve multi raw only,static catalog
+assist2009_skill_builder,correct,observed,correct,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_skill_builder,interaction_order,observed,order_id,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_skill_builder,timestamp,unavailable,,Leave empty; never impute,unknown
+assist2009_skill_builder,selected_answer,mapping_required,answer_id / answer_text,Do not claim selected choice semantics or export arbitrary text without verification,unknown
+assist2009_skill_builder,response_time_ms,observed,ms_first_response,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_skill_builder,attempt_count,observed,attempt_count,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_skill_builder,hint_count,observed,hint_count,Nonnegative numeric; never fill missing with zero,after response
+assist2009_skill_builder,max_score,unavailable,,Leave empty; never impute,unknown
+assist2009_skill_builder,obtained_score,unavailable,,Leave empty; never impute,unknown
+assist2009_non_skill_builder,source,derived,input file identity,Fixed provenance source namespace,static
+assist2009_non_skill_builder,learner_id,derived,user_id,HMAC with source domain and private persistent key,event time / snapshot
+assist2009_non_skill_builder,course_id,unavailable,,Leave empty; never impute,unknown
+assist2009_non_skill_builder,assessment_id,mapping_required,assignment_id,Keep observed_assignment_id separately; verify assessment semantics,unknown
+assist2009_non_skill_builder,question_id,observed,problem_id,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_non_skill_builder,skill_id,observed,skill_id,Keep numeric single skill with variant namespace; preserve multi raw only,static catalog
+assist2009_non_skill_builder,correct,observed,correct,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_non_skill_builder,interaction_order,observed,order_id,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_non_skill_builder,timestamp,unavailable,,Leave empty; never impute,unknown
+assist2009_non_skill_builder,selected_answer,mapping_required,answer_id / answer_text,Do not claim selected choice semantics or export arbitrary text without verification,unknown
+assist2009_non_skill_builder,response_time_ms,observed,ms_first_response,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_non_skill_builder,attempt_count,observed,attempt_count,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_non_skill_builder,hint_count,observed,hint_count,Nonnegative numeric; never fill missing with zero,after response
+assist2009_non_skill_builder,max_score,unavailable,,Leave empty; never impute,unknown
+assist2009_non_skill_builder,obtained_score,unavailable,,Leave empty; never impute,unknown
+assist2009_full,source,derived,input file identity,Fixed provenance source namespace,static
+assist2009_full,learner_id,derived,user_id,HMAC with source domain and private persistent key,event time / snapshot
+assist2009_full,course_id,unavailable,,Leave empty; never impute,unknown
+assist2009_full,assessment_id,mapping_required,assignment_id,Keep observed_assignment_id separately; verify assessment semantics,unknown
+assist2009_full,question_id,observed,problem_id,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_full,skill_id,mapping_required,list_skill_ids,Keep raw only; dictionary required,unverified
+assist2009_full,correct,observed,correct,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_full,interaction_order,observed,order_id,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_full,timestamp,unavailable,,Leave empty; never impute,unknown
+assist2009_full,selected_answer,unavailable,,Leave empty; never impute,unknown
+assist2009_full,response_time_ms,observed,ms_first_response_time,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_full,attempt_count,observed,attempt_count,Namespace ID; keep supplied binary only; nonnegative numeric only as applicable,static question / after response / observed order
+assist2009_full,hint_count,unavailable,,Leave empty; never impute,unknown
+assist2009_full,max_score,unavailable,,Leave empty; never impute,unknown
+assist2009_full,obtained_score,unavailable,,Leave empty; never impute,unknown
+daotao_activity,source,derived,input file identity,Fixed provenance source namespace,static
+daotao_activity,learner_id,derived,Tên đăng nhập,HMAC with source domain and private persistent key,event time / snapshot
+daotao_activity,course_id,derived,Trang tương tác URL,Extract /courses/course-v1 path; do not propagate across blank rows,event time
+daotao_activity,assessment_id,mapping_required,sequential URL block only,Require assessment structure metadata; leave empty,static mapping needed
+daotao_activity,question_id,observed,Hành động input_<hash>_2_1,Observed input component ID; crosswalk to grade columns required,event time
+daotao_activity,skill_id,mapping_required,No skill column,Request versioned input/block to curriculum skill mapping,static mapping needed
+daotao_activity,correct,mapping_required,No per-attempt graded result,Request graded-event/attempt join; never infer from snapshots,after grading
+daotao_activity,interaction_order,derived,Thời gian,Rank per learner by parsed local time; do not trust CSV order,event time
+daotao_activity,timestamp,derived,Thời gian,"Parse dd/mm/yyyy HH:MM:SS; timezone unknown, no assumed UTC offset",event time
+daotao_activity,selected_answer,observed,Hành động =choice_N,Strict full payload regex; choice index is not correct label,after submission
+daotao_activity,response_time_ms,unavailable,,Leave empty; never impute,unknown
+daotao_activity,attempt_count,unavailable,,Leave empty; never impute,unknown
+daotao_activity,hint_count,unavailable,,Leave empty; never impute,unknown
+daotao_activity,max_score,unavailable,,Leave empty; never impute,unknown
+daotao_activity,obtained_score,unavailable,,Leave empty; never impute,unknown
+daotao_grades,source,derived,input file identity,Fixed provenance source namespace,static
+daotao_grades,learner_id,derived,Tên đăng nhập,HMAC with source domain and private persistent key,event time / snapshot
+daotao_grades,course_id,unavailable,,Leave empty; never impute,unknown
+daotao_grades,assessment_id,mapping_required,Display labels and score snapshot only,"Need block IDs, skill crosswalk, grade semantics and attempt-level provenance",unknown
+daotao_grades,question_id,mapping_required,Display labels and score snapshot only,"Need block IDs, skill crosswalk, grade semantics and attempt-level provenance",unknown
+daotao_grades,skill_id,mapping_required,Display labels and score snapshot only,"Need block IDs, skill crosswalk, grade semantics and attempt-level provenance",unknown
+daotao_grades,correct,mapping_required,Display labels and score snapshot only,"Need block IDs, skill crosswalk, grade semantics and attempt-level provenance",unknown
+daotao_grades,interaction_order,unavailable,,Leave empty; never impute,unknown
+daotao_grades,timestamp,unavailable,,Leave empty; never impute,unknown
+daotao_grades,selected_answer,unavailable,,Leave empty; never impute,unknown
+daotao_grades,response_time_ms,unavailable,,Leave empty; never impute,unknown
+daotao_grades,attempt_count,unavailable,,Leave empty; never impute,unknown
+daotao_grades,hint_count,unavailable,,Leave empty; never impute,unknown
+daotao_grades,max_score,observed,Điểm tối đa / Điểm tổng / component numeric cells,Aggregate max 42 only; component max unknown; Chưa làm -> missing; no binary label conversion,snapshot time unknown
+daotao_grades,obtained_score,observed,Điểm tối đa / Điểm tổng / component numeric cells,Aggregate max 42 only; component max unknown; Chưa làm -> missing; no binary label conversion,snapshot time unknown

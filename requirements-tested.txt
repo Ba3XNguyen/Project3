@@ -1,0 +1,7 @@
+# Direct dependencies of the Windows smoke environment; not a full transitive lock.
+numpy==2.5.4
+pandas==3.1.1
+scikit-learn==1.9.1
+torch==2.15.0
+streamlit==1.67.0
+plotly==7.1.0

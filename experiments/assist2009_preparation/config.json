@@ -1,0 +1,15 @@
+{
+  "input": "data/assistment_2009/skill_builder_data_corrected_collapsed.csv",
+  "expected_sha256": "162ef8d2d28bcbfea6591a282994062bd8d5eaa00636544292a0d268dca6e5da",
+  "encoding": "cp1252",
+  "seed": 42,
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "sequence_length": 200,
+  "original": 1,
+  "skills": "single_skill_only",
+  "oov": "exclude_from_all_model_contexts_and_targets",
+  "first_interaction": "exclude_first_train_known_event_per_user_from_common_targets",
+  "context": "full_prefix_of_train_known_pilot_events",
+  "training_authorized": false
+}

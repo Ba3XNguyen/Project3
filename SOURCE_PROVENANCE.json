@@ -1,0 +1,275 @@
+{
+  "copied_files": [
+    {
+      "path": "experiments/assist2009_preparation/adapters.py",
+      "sha256": "86b12fa72efc13599306a9166b43650384994943990fdc93702161bae38ec14e",
+      "staged_sha256": "86b12fa72efc13599306a9166b43650384994943990fdc93702161bae38ec14e",
+      "modified_in_staging": false
+    },
+    {
+      "path": "experiments/assist2009_preparation/config.json",
+      "sha256": "f50c9fc4ccf48b61bd0898fb148fcc459d10736ab6515006acaae2345d829060",
+      "staged_sha256": "f50c9fc4ccf48b61bd0898fb148fcc459d10736ab6515006acaae2345d829060",
+      "modified_in_staging": false
+    },
+    {
+      "path": "experiments/assist2009_preparation/prepare.py",
+      "sha256": "fd1463b01546acdede5743670a5f30d9b094ce27fd1fc32cfb6c7b99645c3b0b",
+      "staged_sha256": "fd1463b01546acdede5743670a5f30d9b094ce27fd1fc32cfb6c7b99645c3b0b",
+      "modified_in_staging": false
+    },
+    {
+      "path": "experiments/assist2009_non_skill/preprocess.py",
+      "sha256": "b8d3eb1177e2dcdb47f7f708fae156adeb8a1f0f790de05809fc216eeb186f61",
+      "staged_sha256": "b8d3eb1177e2dcdb47f7f708fae156adeb8a1f0f790de05809fc216eeb186f61",
+      "modified_in_staging": false
+    },
+    {
+      "path": "experiments/assist2009_robustness/run_robustness.py",
+      "sha256": "11c3cf32925fe55c637ea2bb387bf4f930b48e5243c95b0ec6e43abae6f9428a",
+      "staged_sha256": "bf453b276ed7f89a6e202a9b26d8f2bc724161093810be159230b7194bf20cf8",
+      "modified_in_staging": true
+    },
+    {
+      "path": "experiments/assist2009_robustness/bkt_one.py",
+      "sha256": "101084ebb9761f91091be327edc0d932d6e7c3e79f0b3d925c5b71034b620dd4",
+      "staged_sha256": "80c9665b6148cff97270125686e72aa4e6485a54d63824022d7defb5df8c8414",
+      "modified_in_staging": true
+    },
+    {
+      "path": "experiments/assist2009_robustness/bkt_isolated_stage.py",
+      "sha256": "c051fd8bb111ce5e3ecc34c50759d767fe8b5e392e3baa40b24bb1ced9521006",
+      "staged_sha256": "cf63e93d90bc1fccf187b573f5bc00abc97424b16cdf72613dd19667fb7e38c4",
+      "modified_in_staging": true
+    },
+    {
+      "path": "experiments/assist2009_robustness/dkt_stage.py",
+      "sha256": "0f74bab7a446868fb97655a1f13ffab6c6dd420a425ea2ac821ddff5e0b836f1",
+      "staged_sha256": "0f74bab7a446868fb97655a1f13ffab6c6dd420a425ea2ac821ddff5e0b836f1",
+      "modified_in_staging": false
+    },
+    {
+      "path": "experiments/assist2009_non_skill_training/bkt_stage.py",
+      "sha256": "cc6583bdd2a6f2442eba896060fabd6a21830933bbec8832b1742ea46bfbb44a",
+      "staged_sha256": "54dd0f2fd33445272aff7b32935598f7a94a0508880c5eb4cc385effc5d56088",
+      "modified_in_staging": true
+    },
+    {
+      "path": "experiments/assist2009_non_skill_training/bkt_one.py",
+      "sha256": "7ddfa05860dbabf95a21749d284953b2c31ed33f1334a8db6256da92b826a062",
+      "staged_sha256": "7ddfa05860dbabf95a21749d284953b2c31ed33f1334a8db6256da92b826a062",
+      "modified_in_staging": false
+    },
+    {
+      "path": "experiments/assist2009_non_skill_training/dkt_stage.py",
+      "sha256": "25cea595441736f21dd5b0470981a44386afea25d563e6793ecbc85473de2ca9",
+      "staged_sha256": "25cea595441736f21dd5b0470981a44386afea25d563e6793ecbc85473de2ca9",
+      "modified_in_staging": false
+    },
+    {
+      "path": "experiments/assist2009_non_skill_training/evaluator_audit.py",
+      "sha256": "421cb4aad2b1afa97865a14284f2bec53c750aefa48f298a80561dfcfe85be8d",
+      "staged_sha256": "421cb4aad2b1afa97865a14284f2bec53c750aefa48f298a80561dfcfe85be8d",
+      "modified_in_staging": false
+    },
+    {
+      "path": "kt_demo/app.py",
+      "sha256": "e4d8a76809636690be99e326c71d84959d3a6c4a15032fc8b7292ad0148007b1",
+      "staged_sha256": "f15e5a1192f76bb265c95bbcc0f994537b8836cf03f456c8027632c3aa51dad1",
+      "modified_in_staging": true
+    },
+    {
+      "path": "kt_demo/core.py",
+      "sha256": "d7c1751523388113b12e6cb37c0a97977de70ff2c53136c65de0f6d40c1cf9a9",
+      "staged_sha256": "d7c1751523388113b12e6cb37c0a97977de70ff2c53136c65de0f6d40c1cf9a9",
+      "modified_in_staging": false
+    },
+    {
+      "path": "kt_demo/validate.py",
+      "sha256": "abef65edbe86a4b2798c0d2e271e5cd35fee37ec3a13ffb6be82cfa4cd6ec59b",
+      "staged_sha256": "abef65edbe86a4b2798c0d2e271e5cd35fee37ec3a13ffb6be82cfa4cd6ec59b",
+      "modified_in_staging": false
+    },
+    {
+      "path": "kt_demo/test_dashboard.py",
+      "sha256": "4e084028edb79716991d835b452b1fdca0306bd86e24ec22962d6ffc1a41527e",
+      "staged_sha256": "4e084028edb79716991d835b452b1fdca0306bd86e24ec22962d6ffc1a41527e",
+      "modified_in_staging": false
+    },
+    {
+      "path": "kt_demo/check_server.py",
+      "sha256": "b0ffa4484164df3ff1cd5dc4de1afa0387003f454c2f84cf5baf8cea7a071577",
+      "staged_sha256": "b0ffa4484164df3ff1cd5dc4de1afa0387003f454c2f84cf5baf8cea7a071577",
+      "modified_in_staging": false
+    },
+    {
+      "path": "presentation/ARTIFACT_MANIFEST.csv",
+      "sha256": "ee6ba3ab947bcfe6157cfdf3c0ddf327f647ba4ecfa6727f6a131eefeac053ff",
+      "staged_sha256": "ee6ba3ab947bcfe6157cfdf3c0ddf327f647ba4ecfa6727f6a131eefeac053ff",
+      "modified_in_staging": false
+    },
+    {
+      "path": "presentation/RESULTS_COMPARISON.csv",
+      "sha256": "bce4aa23a9fa71442bcd16762bb588a5340cbd372384be97dd6ff47dc2d39ca2",
+      "staged_sha256": "bce4aa23a9fa71442bcd16762bb588a5340cbd372384be97dd6ff47dc2d39ca2",
+      "modified_in_staging": false
+    },
+    {
+      "path": "data_integration/preprocess.py",
+      "sha256": "31d271cd32d4ad18d0ff4bdf07781ef012c792e8673cf44d0b13e78788c8f162",
+      "staged_sha256": "7a94cf52d7d3f9dfeb6fd2e44ee21ed25961de8758094be6ad2ef959fcc49bc3",
+      "modified_in_staging": true
+    },
+    {
+      "path": "data_integration/validate_outputs.py",
+      "sha256": "c1e19d9cf71dcdf917f29181735796549a5d83acfe9026e06ea726885b8e757c",
+      "staged_sha256": "6472d6cf0129b8fb2477645b03c293fad83cdbe5cb5b6eb2322af571a4aba252",
+      "modified_in_staging": true
+    },
+    {
+      "path": "data_integration/CANONICAL_SCHEMA.md",
+      "sha256": "c99b74506c99757c0f4535a5bcc0da738d76459b9b855786dc14530b44a33275",
+      "staged_sha256": "c99b74506c99757c0f4535a5bcc0da738d76459b9b855786dc14530b44a33275",
+      "modified_in_staging": false
+    },
+    {
+      "path": "data_integration/FEATURE_MAPPING.csv",
+      "sha256": "785dd582c18c00ff603abd555bb479387701aa309dba87b306f5c2bddd73e13b",
+      "staged_sha256": "785dd582c18c00ff603abd555bb479387701aa309dba87b306f5c2bddd73e13b",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pykt-toolkit/pykt/models/dkt.py",
+      "sha256": "d6bc51dd70084301619560240a4ba49920e0278448984196fe886dd3993baae6",
+      "staged_sha256": "d6bc51dd70084301619560240a4ba49920e0278448984196fe886dd3993baae6",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pykt-toolkit/LICENSE",
+      "sha256": "f5f95519463643ffbf9cf2892a1201c6d1d27b2effc5970935e6cd28605b3e87",
+      "staged_sha256": "f5f95519463643ffbf9cf2892a1201c6d1d27b2effc5970935e6cd28605b3e87",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/LICENSE",
+      "sha256": "ad0c7a38bf01d8f2577bf69309f46d15ef9c82a1cff3ad19cf4bae8cee86704e",
+      "staged_sha256": "ad0c7a38bf01d8f2577bf69309f46d15ef9c82a1cff3ad19cf4bae8cee86704e",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/__init__.py",
+      "sha256": "604ad4f49cafec647433e42950ebcdd5a89eb3f14097bcde8171a332be026510",
+      "staged_sha256": "604ad4f49cafec647433e42950ebcdd5a89eb3f14097bcde8171a332be026510",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/fit/EM_fit.py",
+      "sha256": "2a822257f670c46ee9b17cd8326226fc0e0a858056b874b86d361c5785b3b085",
+      "staged_sha256": "2a822257f670c46ee9b17cd8326226fc0e0a858056b874b86d361c5785b3b085",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/fit/M_step.py",
+      "sha256": "78c175461ec19b1a610747e1eb9f24b11e30f15a6cfa509b1801c2a6a55caa71",
+      "staged_sha256": "78c175461ec19b1a610747e1eb9f24b11e30f15a6cfa509b1801c2a6a55caa71",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/fit/predict_onestep.py",
+      "sha256": "2f7db66b938a3c482e8987eb1fa5810f5a6e110a56a390afa8291d42e89a8982",
+      "staged_sha256": "2f7db66b938a3c482e8987eb1fa5810f5a6e110a56a390afa8291d42e89a8982",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/fit/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/generate/random_model.py",
+      "sha256": "ccce8fac2deaccb883d039792835cc4a3663d2c733aa637bb10c9b22883f20b1",
+      "staged_sha256": "ccce8fac2deaccb883d039792835cc4a3663d2c733aa637bb10c9b22883f20b1",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/generate/random_model_uni.py",
+      "sha256": "ffe9c4eeb4de6e00c5f3a106a380b56db47d94c4ca54ea8d8ebdef15ee4c1dc6",
+      "staged_sha256": "ffe9c4eeb4de6e00c5f3a106a380b56db47d94c4ca54ea8d8ebdef15ee4c1dc6",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/generate/synthetic_data.py",
+      "sha256": "2456224e0ecaf0dcae649ad826e933095a4e735b92d57e49707173d49e1eb6ed",
+      "staged_sha256": "2456224e0ecaf0dcae649ad826e933095a4e735b92d57e49707173d49e1eb6ed",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/generate/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/models/Model.py",
+      "sha256": "da4c64cd9e56bb2c9746b504d1204144dda3a193fa5a0b1ea06f1d3bb1db4612",
+      "staged_sha256": "da4c64cd9e56bb2c9746b504d1204144dda3a193fa5a0b1ea06f1d3bb1db4612",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/models/Roster.py",
+      "sha256": "57b1cd2f470a8ffa5cd28ccbb608a0cdde58ba4936fab7c177421a503f344495",
+      "staged_sha256": "57b1cd2f470a8ffa5cd28ccbb608a0cdde58ba4936fab7c177421a503f344495",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/models/__init__.py",
+      "sha256": "0373a66417929ded79d7a08a940b49a3270a5fa1cc1805319ee16ee92533441a",
+      "staged_sha256": "0373a66417929ded79d7a08a940b49a3270a5fa1cc1805319ee16ee92533441a",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/util/check_data.py",
+      "sha256": "c852be010d05c5e15f262557aad4c5d82f958c5c14f1d2d3c43c4842519aad55",
+      "staged_sha256": "c852be010d05c5e15f262557aad4c5d82f958c5c14f1d2d3c43c4842519aad55",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/util/crossvalidate.py",
+      "sha256": "2fe0016990ff6d22847223e79ef5664026596c34a43de229abd96c91a2937b12",
+      "staged_sha256": "2fe0016990ff6d22847223e79ef5664026596c34a43de229abd96c91a2937b12",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/util/data_helper.py",
+      "sha256": "e9fee88bfa1f92533aa353b08423d3f9666cb67e784088feccef9e5e297e8a5c",
+      "staged_sha256": "e9fee88bfa1f92533aa353b08423d3f9666cb67e784088feccef9e5e297e8a5c",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/util/dirrnd.py",
+      "sha256": "6eec4cbab503a00892bdee987e32c8e1b478aab33edc3869ddb4e75d21cb3f85",
+      "staged_sha256": "6eec4cbab503a00892bdee987e32c8e1b478aab33edc3869ddb4e75d21cb3f85",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/util/metrics.py",
+      "sha256": "6c1ea87063bca10ca74ed696be9700242851a723b44edc63c3c26c0e52583771",
+      "staged_sha256": "6c1ea87063bca10ca74ed696be9700242851a723b44edc63c3c26c0e52583771",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/util/print_dot.py",
+      "sha256": "0b374ed5253e7a368d58eed6e010651e16490dd0e82e8aef830581a1123178dd",
+      "staged_sha256": "0b374ed5253e7a368d58eed6e010651e16490dd0e82e8aef830581a1123178dd",
+      "modified_in_staging": false
+    },
+    {
+      "path": "code/pyBKT/source-py/pyBKT/util/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "staged_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "modified_in_staging": false
+    }
+  ],
+  "original_copied_files_unchanged": true
+}
